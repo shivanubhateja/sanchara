@@ -1,0 +1,12 @@
+# Publishes index.html to GitLab Pages on every push to the default branch
+pages:
+  stage: deploy
+  script:
+    - mkdir -p public
+    - cp index.html public/
+    - if [ -d assets ]; then cp -r assets public/; fi
+  artifacts:
+    paths:
+      - public
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH

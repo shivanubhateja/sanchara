@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sanchara | Knee and hip replacement in India, coordinated end to end</title>
+<meta name="description" content="Sanchara coordinates orthopedic surgery in India for patients from the US, UK, EU, Canada, Australia and New Zealand: accredited hospitals, a dedicated coordinator, and one clear price.">
+<meta name="theme-color" content="#0E1B2C">
+<meta property="og:title" content="Sanchara | Orthopedic care in India, coordinated end to end">
+<meta property="og:description" content="Joint replacement and sports orthopedics at accredited Indian hospitals, with one coordinator from first call to follow-up.">
+<meta property="og:type" content="website">
+<!-- Favicon: put Sanchara_Icon_512.png in /assets and uncomment -->
+<!-- <link rel="icon" href="assets/Sanchara_Icon_512.png"> -->
+<style>
+:root{
+  --ink:#0E1B2C; --ink-2:#1C2D44; --text:#2B3747; --muted:#5E6B7B;
+  --gold:#B98D63; --gold-d:#8F6A45; --gold-l:#F0D2A6;
+  --bg:#F5F7FA; --white:#fff; --line:#DDE3EA;
+  --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:72px;-webkit-text-size-adjust:100%}
+body{margin:0;font:16px/1.6 var(--sans);color:var(--text);background:var(--white);padding-bottom:calc(64px + env(safe-area-inset-bottom,0px))}
+img,svg{max-width:100%}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+.wrap{width:100%;max-width:1120px;margin:0 auto;padding:0 20px}
+h1,h2,h3{font-family:var(--serif);color:var(--ink);line-height:1.15;margin:0 0 .5em;font-weight:600}
+h1{font-size:clamp(2.1rem,8vw,3.6rem);letter-spacing:-.01em}
+h2{font-size:clamp(1.6rem,5.5vw,2.4rem)}
+h3{font-size:1.2rem}
+p{margin:0 0 1em}
+.lead{font-size:1.1rem;color:var(--muted);max-width:60ch}
+section{padding:56px 0}
+.alt{background:var(--bg)}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 24px;border-radius:999px;font-weight:600;text-decoration:none;border:2px solid transparent;cursor:pointer;font:inherit;font-weight:600}
+.btn-gold{background:var(--gold);color:var(--ink)}
+.btn-gold:hover{background:var(--gold-l)}
+.btn-line{border-color:rgba(255,255,255,.4);color:#fff}
+.btn-line:hover{background:rgba(255,255,255,.1)}
+.btn-ink{background:var(--ink);color:#fff}
+
+/* header */
+header{position:sticky;top:0;z-index:50;background:var(--ink);color:#fff;padding-top:env(safe-area-inset-top,0px)}
+.bar{display:flex;align-items:center;justify-content:space-between;height:60px}
+.brand{font-family:var(--sans);font-weight:300;letter-spacing:.28em;font-size:1.05rem;text-decoration:none;display:flex;align-items:center;gap:10px}
+.brand svg{width:26px;height:26px}
+nav ul{list-style:none;margin:0;padding:0}
+.menu-btn{background:none;border:0;color:#fff;width:44px;height:44px;font-size:1.6rem;cursor:pointer}
+#nav{display:none;position:absolute;left:0;right:0;top:100%;background:var(--ink-2);padding:8px 20px 20px}
+#nav.open{display:block}
+#nav a{display:block;padding:14px 0;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.1)}
+.nav-cta{display:none}
+
+/* hero */
+.hero{background:linear-gradient(180deg,var(--ink) 0%,var(--ink-2) 100%);color:#fff;padding:48px 0 56px}
+.hero h1{color:#fff;max-width:16ch}
+.hero .lead{color:#C4CEDB}
+.hero-actions{display:flex;flex-direction:column;gap:12px;margin-top:28px}
+.fine{font-size:.85rem;color:#98A6B8;margin-top:18px}
+.hero-card{margin-top:36px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14);border-radius:16px;padding:20px}
+.hero-card h2{font-size:1.05rem;color:var(--gold-l);font-family:var(--sans);margin-bottom:12px}
+.cmp{display:grid;grid-template-columns:auto 1fr;gap:10px 14px;align-items:center;font-size:.95rem}
+.cmp .bar-b{height:10px;border-radius:5px}
+.us{background:#6C7A8D;width:100%}
+.in{background:var(--gold);width:35%}
+.hero-card small{display:block;color:#98A6B8;margin-top:12px;font-size:.78rem;line-height:1.4}
+
+/* trust strip */
+.trust{background:var(--white);border-bottom:1px solid var(--line);padding:28px 0}
+.trust ul{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.trust strong{display:block;font-family:var(--serif);font-size:1.5rem;color:var(--ink)}
+.trust span{font-size:.88rem;color:var(--muted)}
+
+/* grids */
+.grid{display:grid;gap:16px;margin-top:28px}
+.card{background:var(--white);border:1px solid var(--line);border-radius:14px;padding:22px}
+.alt .card{border-color:transparent}
+.card p{color:var(--muted);margin:0}
+.ico{width:40px;height:40px;border-radius:10px;background:var(--ink);color:var(--gold-l);display:grid;place-items:center;margin-bottom:14px}
+.ico svg{width:22px;height:22px}
+
+/* journey */
+.steps{list-style:none;margin:32px 0 0;padding:0;position:relative}
+.steps:before{content:"";position:absolute;left:19px;top:8px;bottom:8px;width:2px;background:var(--gold-l)}
+.steps li{position:relative;padding:0 0 28px 60px}
+.steps li:last-child{padding-bottom:0}
+.steps .n{position:absolute;left:0;top:0;width:40px;height:40px;border-radius:50%;background:var(--ink);color:var(--gold-l);display:grid;place-items:center;font-family:var(--serif);font-weight:600}
+.steps p{color:var(--muted);margin:0}
+
+/* split / list */
+.checks{list-style:none;padding:0;margin:20px 0 0}
+.checks li{padding:10px 0 10px 34px;position:relative;border-bottom:1px solid var(--line)}
+.checks li:before{content:"";position:absolute;left:4px;top:16px;width:14px;height:8px;border-left:3px solid var(--gold);border-bottom:3px solid var(--gold);transform:rotate(-45deg)}
+
+/* testimonials */
+.quote{display:flex;flex-direction:column;justify-content:space-between}
+.quote blockquote{margin:0 0 18px;font-family:var(--serif);font-size:1.08rem;line-height:1.5;color:var(--ink)}
+.who{display:flex;align-items:center;gap:12px;font-size:.9rem}
+.av{width:42px;height:42px;border-radius:50%;background:var(--gold-l);color:var(--ink);display:grid;place-items:center;font-weight:700}
+.who span{display:block;color:var(--muted);font-size:.82rem}
+.sample-note{font-size:.82rem;color:var(--muted);margin-top:18px}
+
+/* faq */
+details{border-bottom:1px solid var(--line);padding:4px 0}
+summary{cursor:pointer;font-weight:600;color:var(--ink);padding:16px 28px 16px 0;list-style:none;position:relative}
+summary::-webkit-details-marker{display:none}
+summary:after{content:"+";position:absolute;right:4px;top:12px;font-size:1.5rem;color:var(--gold-d);transition:transform .2s}
+details[open] summary:after{transform:rotate(45deg)}
+details p{color:var(--muted);padding-right:20px}
+
+/* contact */
+.contact{background:var(--ink);color:#fff}
+.contact h2{color:#fff}
+.contact .lead{color:#C4CEDB}
+form{display:grid;gap:14px;margin-top:24px;background:var(--white);color:var(--text);padding:22px;border-radius:16px}
+label{font-size:.9rem;font-weight:600;color:var(--ink);display:grid;gap:6px}
+input,select,textarea{font:inherit;font-size:16px;padding:12px 14px;border:1px solid #BCC6D2;border-radius:10px;width:100%;background:#fff;color:var(--text)}
+textarea{min-height:96px;resize:vertical}
+.privacy{font-size:.82rem;color:var(--muted);margin:0}
+
+footer{background:#091320;color:#98A6B8;padding:36px 0;font-size:.85rem}
+footer a{color:#C4CEDB}
+footer p{margin:0 0 10px;max-width:80ch}
+
+/* mobile sticky CTA */
+.sticky{position:fixed;left:0;right:0;bottom:0;z-index:60;background:#fff;border-top:1px solid var(--line);padding:8px 16px calc(8px + env(safe-area-inset-bottom,0px));display:flex;gap:10px}
+.sticky .btn{flex:1;min-height:46px;padding:0 12px}
+
+/* tablet+ */
+@media(min-width:760px){
+  body{padding-bottom:0}.sticky{display:none}
+  section{padding:88px 0}
+  .menu-btn{display:none}
+  #nav{display:block!important;position:static;background:none;padding:0}
+  nav ul{display:flex;gap:28px;align-items:center}
+  #nav a{padding:0;border:0;font-size:.95rem;opacity:.85}#nav a:hover{opacity:1}
+  .nav-cta{display:inline-flex;min-height:40px;padding:0 18px;opacity:1!important}
+  .hero{padding:96px 0}
+  .hero-grid{display:grid;grid-template-columns:1.25fr 1fr;gap:56px;align-items:center}
+  .hero-card{margin-top:0}
+  .hero-actions{flex-direction:row}
+  .trust ul{grid-template-columns:repeat(4,1fr)}
+  .g3{grid-template-columns:repeat(3,1fr)}
+  .g2{grid-template-columns:repeat(2,1fr)}
+  .split{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:start}
+  .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:start}
+  form{margin-top:0}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap bar">
+    <!-- Replace the inline mark with <img src="assets/sanchara-mark.svg"> once added -->
+    <a class="brand" href="#top" aria-label="Sanchara home">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 28C6 21 3 15 3 10.5 3 7 5.6 4.5 9 4.5c3 0 5.2 1.7 7 4.2 1.8-2.5 4-4.2 7-4.2 3.4 0 6 2.5 6 6C29 15 26 21 16 28z" fill="none" stroke="#F0D2A6" stroke-width="2"/></svg>
+      SANCHARA
+    </a>
+    <nav aria-label="Main">
+      <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="nav" aria-label="Menu">&#9776;</button>
+      <div id="nav">
+        <ul>
+          <li><a href="#how">How it works</a></li>
+          <li><a href="#included">What's included</a></li>
+          <li><a href="#why">Why India</a></li>
+          <li><a href="#stories">Patient stories</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a class="btn btn-gold nav-cta" href="#contact">Free consultation</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <h1>Joint replacement in India, handled from first call to follow-up.</h1>
+      <p class="lead">Sanchara coordinates orthopedic care at accredited Indian hospitals for patients from the US, UK, Europe, Canada, Australia and New Zealand. One coordinator, one clear quote, no surprises.</p>
+      <div class="hero-actions">
+        <a class="btn btn-gold" href="#contact">Get a free case review</a>
+        <a class="btn btn-line" href="#how">See how it works</a>
+      </div>
+      <p class="fine">Sanchara is a care coordination service. Treatment is provided by independent, accredited hospitals and their surgeons.</p>
+    </div>
+    <aside class="hero-card" aria-label="Typical cost comparison">
+      <h2>Why patients travel</h2>
+      <div class="cmp">
+        <span>Home country</span><div class="bar-b us"></div>
+        <span>India</span><div class="bar-b in"></div>
+      </div>
+      <small>Illustrative: orthopedic procedures in India commonly cost 50 to 90% less than US pricing. Your personal quote depends on the procedure, implant and hospital.</small>
+    </aside>
+  </div>
+</section>
+
+<div class="trust">
+  <div class="wrap">
+    <ul>
+      <li><strong>50–90%</strong><span>typical savings vs. US pricing</span></li>
+      <li><strong>JCI / NABH</strong><span>accredited hospitals only</span></li>
+      <li><strong>1 specialty</strong><span>orthopedics, done properly</span></li>
+      <li><strong>1 coordinator</strong><span>from enquiry to recovery</span></li>
+    </ul>
+  </div>
+</div>
+
+<section id="how">
+  <div class="wrap">
+    <h2>Your journey, step by step</h2>
+    <p class="lead">Most patients decide in a few weeks. Here is what happens once you get in touch.</p>
+    <ol class="steps">
+      <li><span class="n">1</span><h3>Free case review</h3><p>Share your diagnosis and scans through our secure channel. We check whether treatment in India makes sense for you.</p></li>
+      <li><span class="n">2</span><h3>Surgeon opinion and fixed quote</h3><p>You receive a written opinion from a specialist surgeon and an itemized quote covering surgery, implant, stay and physiotherapy.</p></li>
+      <li><span class="n">3</span><h3>Travel and stay arranged</h3><p>Medical visa guidance, flights, airport pickup and a comfortable stay near the hospital for you and a companion.</p></li>
+      <li><span class="n">4</span><h3>Surgery and recovery</h3><p>Your coordinator is with you at admission, answers questions in your language, and keeps your family at home updated.</p></li>
+      <li><span class="n">5</span><h3>Follow-up at home</h3><p>Reports and rehab plan shared with your own doctor, plus scheduled check-ins after you return.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section id="included" class="alt">
+  <div class="wrap">
+    <h2>What we help with</h2>
+    <p class="lead">Joint replacement and sports orthopedics, where outcomes are well documented and planning matters most.</p>
+    <div class="grid g3">
+      <div class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M8 3v7l-2 4 3 3v4M16 3v7l2 4-3 3v4"/></svg></div><h3>Knee replacement</h3><p>Total and partial, single or both knees.</p></div>
+      <div class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="9" cy="8" r="4"/><path d="M12 11l6 8"/></svg></div><h3>Hip replacement</h3><p>Total hip, resurfacing and revision cases.</p></div>
+      <div class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 18c0-6 4-10 10-10M14 8l-3-4m3 4l4-1"/></svg></div><h3>Shoulder and sports</h3><p>Shoulder replacement, ACL and arthroscopic surgery.</p></div>
+    </div>
+    <ul class="checks">
+      <li>Specialist surgeon opinion before you commit to travel</li>
+      <li>Itemized written quote, agreed before you book</li>
+      <li>Medical visa guidance, flights, hotel and airport transfers</li>
+      <li>Dedicated English-speaking coordinator on the ground</li>
+      <li>Companion support and local transport to appointments</li>
+      <li>Records and rehab plan sent to your doctor at home</li>
+    </ul>
+  </div>
+</section>
+
+<section id="why">
+  <div class="wrap split">
+    <div>
+      <h2>Why patients choose India</h2>
+      <p class="lead">Waiting lists and rising out-of-pocket costs push many patients to look abroad. India offers a rare combination of price, expertise and capacity.</p>
+    </div>
+    <div class="grid" style="margin-top:0">
+      <div class="card"><h3>Lower cost, same implants</h3><p>Leading hospitals use internationally recognized implant brands at a fraction of Western prices.</p></div>
+      <div class="card"><h3>High-volume surgeons</h3><p>Indian orthopedic teams perform joint replacements at large scale, many trained in the UK and US.</p></div>
+      <div class="card"><h3>No long wait</h3><p>Surgery can usually be scheduled within weeks, not months.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="stories" class="alt">
+  <div class="wrap">
+    <h2>Patient stories</h2>
+    <div class="grid g3">
+      <figure class="card quote" style="margin:0">
+        <blockquote>“I had been on a waiting list for 14 months. Within three weeks I had a surgeon’s opinion, a fixed price and a date.”</blockquote>
+        <figcaption class="who"><div class="av">D</div><div>David M.<span>Manchester, UK · Knee replacement</span></div></figcaption>
+      </figure>
+      <figure class="card quote" style="margin:0">
+        <blockquote>“The coordinator was at the hospital every day and sent my family updates. I never felt like I was on my own.”</blockquote>
+        <figcaption class="who"><div class="av">S</div><div>Sarah L.<span>Toronto, Canada · Hip replacement</span></div></figcaption>
+      </figure>
+      <figure class="card quote" style="margin:0">
+        <blockquote>“Everything was itemized upfront. The final bill matched the quote, and my own physio had the full records.”</blockquote>
+        <figcaption class="who"><div class="av">M</div><div>Michael R.<span>Melbourne, Australia · Knee replacement</span></div></figcaption>
+      </figure>
+    </div>
+    <!-- REMOVE THIS NOTE AND REPLACE THE QUOTES ABOVE WITH REAL, CONSENTED PATIENT STORIES BEFORE GOING LIVE -->
+    <p class="sample-note" id="sampleNote">Sample stories shown for design preview only. They will be replaced with verified patient accounts.</p>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="wrap" style="max-width:760px">
+    <h2>Common questions</h2>
+    <details><summary>Is Sanchara a hospital or a clinic?</summary><p>No. Sanchara is a care coordination service. Surgery and medical care are provided by independent accredited hospitals and their surgeons. We do not give medical advice or guarantee outcomes.</p></details>
+    <details><summary>How are hospitals chosen?</summary><p>We refer patients only to hospitals with international accreditation such as JCI or NABH, and to surgeons whose experience we have reviewed.</p></details>
+    <details><summary>Will my health insurance cover it?</summary><p>Standard domestic plans usually do not cover elective treatment abroad. Some international private plans do. Tell us your insurer and we will help you check before you book.</p></details>
+    <details><summary>What if there is a complication after I return?</summary><p>Your discharge records and rehab plan go to your own doctor. We recommend travel and medical-complication insurance and will explain your options before you travel.</p></details>
+    <details><summary>Do I need a visa?</summary><p>Most nationalities need a visa to travel to India for treatment. We guide you through the medical visa process and the documents the hospital provides.</p></details>
+    <details><summary>How is my health data protected?</summary><p>Share records only through the secure channel we give you. We handle data in line with applicable privacy law, including GDPR for EU and UK patients.</p></details>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="wrap contact-grid">
+    <div>
+      <h2>Start with a free case review</h2>
+      <p class="lead">Tell us a little about your situation. We reply within one business day with next steps. No obligation.</p>
+    </div>
+    <form id="leadForm">
+      <label>Full name<input name="name" autocomplete="name" required></label>
+      <label>Email<input type="email" name="email" autocomplete="email" required></label>
+      <label>Country<select name="country" required>
+        <option value="">Select</option><option>United States</option><option>United Kingdom</option><option>Canada</option><option>Australia</option><option>New Zealand</option><option>Germany</option><option>France</option><option>Ireland</option><option>Netherlands</option><option>Other EU country</option>
+      </select></label>
+      <label>What are you considering?<select name="proc">
+        <option>Knee replacement</option><option>Hip replacement</option><option>Shoulder or sports surgery</option><option>Not sure yet</option>
+      </select></label>
+      <label>Message (optional)<textarea name="msg" placeholder="Please do not include detailed medical records here."></textarea></label>
+      <button class="btn btn-ink" type="submit">Request my case review</button>
+      <p class="privacy">We use your details only to reply to you. We will send records requests through a secure channel.</p>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p><strong style="color:#fff;letter-spacing:.2em;font-weight:300">SANCHARA</strong></p>
+    <p>Sanchara is a medical travel coordination service and not a healthcare provider. Information on this site is general and is not medical advice. Costs and outcomes vary by patient and hospital. Always consult your own doctor.</p>
+    <p><a href="mailto:hello@sanchara.example">hello@sanchara.example</a> · <a href="#">Privacy policy</a> · <a href="#">Terms</a></p>
+    <p>&copy; <span id="yr">2026</span> Sanchara. All rights reserved.</p>
+  </div>
+</footer>
+
+<div class="sticky">
+  <a class="btn btn-gold" href="#contact">Free consultation</a>
+  <!-- Replace the number once WhatsApp Business is set up: https://wa.me/<countrycode><number> -->
+  <a class="btn btn-ink" href="#contact">Message us</a>
+</div>
+
+<script>
+(function(){
+  var b=document.getElementById('menuBtn'),n=document.getElementById('nav');
+  b.addEventListener('click',function(){var o=n.classList.toggle('open');b.setAttribute('aria-expanded',o)});
+  n.addEventListener('click',function(e){if(e.target.tagName==='A'){n.classList.remove('open');b.setAttribute('aria-expanded','false')}});
+  document.getElementById('yr').textContent=new Date().getFullYear();
+  // Static hosting has no backend: this opens the visitor's email app.
+  // Swap for a form service (Formspree, Basin, etc.) when ready.
+  document.getElementById('leadForm').addEventListener('submit',function(e){
+    e.preventDefault();
+    var f=e.target,body='Name: '+f.name.value+'\nCountry: '+f.country.value+'\nInterested in: '+f.proc.value+'\n\n'+f.msg.value;
+    location.href='mailto:hello@sanchara.example?subject='+encodeURIComponent('Case review request')+'&body='+encodeURIComponent(body);
+  });
+})();
+</script>
+</body>
+</html>
